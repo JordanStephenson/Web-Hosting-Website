@@ -30,7 +30,7 @@ header {
   margin-top: 50%;
 }
 .hide-mobile {
-    display: none;
+  display: none;
 }
 
 .nav-links {
@@ -86,10 +86,9 @@ header {
   align-items: center;
   margin-top: 2rem;
   margin-bottom: 3rem;
-
 }
 .title {
-    font-size: 2em;
+  font-size: 2em;
   margin-bottom: 1rem;
 }
 .sub-title {
@@ -100,7 +99,7 @@ header {
   background-color: #2ec6e7;
   padding-bottom: 150px;
 }
-.blue-section p{
+.blue-section p {
   font-size: 0.8em;
 }
 .blue-section .container {
@@ -118,7 +117,7 @@ header {
   color: white;
   text-align: center;
 }
-.column img {    
+.column img {
   margin-top: 120px;
   margin-bottom: 50px;
 }
@@ -130,7 +129,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  flex-direction: column;;
+  flex-direction: column;
 }
 .jane-doe {
   margin-bottom: -150px;
@@ -154,10 +153,10 @@ header {
 .josh-hart img,
 .jane-doe img {
   margin-right: 8%;
-  margin-bottom: 2rem;  
+  margin-bottom: 2rem;
 }
 .name {
-    margin: 1em 0;
+  margin: 1em 0;
   color: #2ec6e7;
   font-size: 1.5rem;
 }
@@ -167,6 +166,7 @@ header {
   align-items: center;
   justify-content: center;
   height: 40vh;
+  padding-bottom: 50px;
 }
 .sign-up h1 {
   font-size: 2.5rem;
@@ -184,6 +184,7 @@ header {
   background-color: #4d5256;
   height: 35vh;
   padding-top: 20px;
+  padding-bottom: 150px;
 }
 .footer .container {
   display: flex;
@@ -214,67 +215,69 @@ header {
   align-items: center;
   flex-direction: column;
 }
-@media(min-width: 1000px) {
-    .server {
-        width: 50%;
-      margin-left: 34%;
-    }
-    .title {
-        font-size: 2.5em;
-    }
-    .sub-title {
-        font-size: 1.5em;
-    }.column {
-      margin-right: 20px;
-    }
-    .column img {
-        width: 30%;
-    }
-    .phone img {
-        width: 15%;
-    }
-    .column p {
-      font-size: 1.5rem;
-    }
-    .blue-section .container{
-        flex-direction: row;
-    }
-    .testamonials {
-      height: 60vh;
-    }
-    .testamonials .container {
-      flex-direction: row;
-      align-items: cent
-    }
-    .jane-doe, .josh-hart {
-      margin: 0;
-    }
-    .josh-hart, .jane-doe {
-      flex-direction: row;
-      width: 50%;
-      margin-top: 200px;
-    }
-    
-    .josh-hart img, .jane-doe img{
-      margin-left: 50px;
-    }
-    .sign-up {
-      flex-direction: row;
-    }
-    .footer {
-      height: 21vh;
-    }
-    .footer .container{
-      flex-direction: row;
-    }
-    .footer-nav ul{
-      flex-direction: row;
-      margin-top: 20px;
-    }
-    
+@media (min-width: 1000px) {
+  .server {
+    width: 50%;
+    margin-left: 34%;
+  }
+  .title {
+    font-size: 2.5em;
+  }
+  .sub-title {
+    font-size: 1.5em;
+  }
+  .column {
+    margin-right: 20px;
+  }
+  .column img {
+    width: 30%;
+  }
+  .phone img {
+    width: 15%;
+  }
+  .column p {
+    font-size: 1.5rem;
+  }
+  .blue-section .container {
+    flex-direction: row;
+  }
+  .testamonials {
+    height: 60vh;
+  }
+  .testamonials .container {
+    flex-direction: row;
+    align-items: cent;
+  }
+  .jane-doe,
+  .josh-hart {
+    margin: 0;
+  }
+  .josh-hart,
+  .jane-doe {
+    flex-direction: row;
+    width: 50%;
+    margin-top: 200px;
+  }
 
+  .josh-hart img,
+  .jane-doe img {
+    margin-left: 50px;
+  }
+  .sign-up {
+    flex-direction: row;
+  }
+  .footer {
+    height: 21vh;
+  }
+  .footer .container {
+    flex-direction: row;
+  }
+  .footer-nav ul {
+    flex-direction: row;
+    margin-top: 20px;
+  }
 }
-@media(min-width: 1200px) {
+@media (min-width: 1200px) {
   .main-section {
     height: 100vh;
     padding-bottom: 100px;
@@ -293,7 +296,7 @@ header {
     display: flex;
     justify-content: space-around;
     width: 40vw;
-    padding-top: 0px ;
+    padding-top: 0px;
   }
   .nav-links li {
     float: left;
@@ -320,12 +323,12 @@ header {
     }
   }
 }
-@media(min-width: 1500px) {
+@media (min-width: 1500px) {
   .server {
     width: 40%;
     margin-left: 37%;
   }
-   
+
   .column p {
     font-size: 1.4rem;
   }
