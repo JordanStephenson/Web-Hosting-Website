@@ -184,7 +184,7 @@ header {
   background-color: #4d5256;
   height: 35vh;
   padding-top: 20px;
-  padding-bottom: 150px;
+  padding-bottom: 250px;
 }
 .footer .container {
   display: flex;
@@ -243,6 +243,7 @@ header {
   }
   .testamonials {
     height: 60vh;
+    padding-bottom: 0px;
   }
   .testamonials .container {
     flex-direction: row;
@@ -265,9 +266,11 @@ header {
   }
   .sign-up {
     flex-direction: row;
+    padding-bottom: 0px;
   }
   .footer {
     height: 21vh;
+    padding-bottom: 0px;
   }
   .footer .container {
     flex-direction: row;
